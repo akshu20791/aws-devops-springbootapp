@@ -3,6 +3,7 @@ phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR....
+      #checking version
       - aws --version
       #- $(aws ecr get-login --region ap-south-1 --no-include-email)
       # update below 
