@@ -8,6 +8,7 @@ public class SpringbootAwsDeployApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootAwsDeployApplication.class, args);
+		Sytem.out.println ("This is the code we need ");
 	}
 
 }
